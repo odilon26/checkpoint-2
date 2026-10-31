@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Odilon TANOH</title>
+</head>
+<body>
+    <header>
+        <h1>Odilon TANOH</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a-propos">A propos</a></li>
+                <li><a href="#experience">Expérience professionnelle</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil">
+            <h2>Accueil</h2>
+            <p>Je suis Odilon TANOH étudiant à GoMyCode pour avoir des compétences en DevWeb</p>
+        </section>
+
+        <section id="a-propos">
+            <h2>À propos</h2>
+            <p>Je suis informaticien et je donne aussi des cours en bureautique</p>
+            <video controls width="400">
+                <source src="Odis_Agence_presentation.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la video
+            </video>
+            <audio controls>
+                <source src="ElevenLabs_2026.mp3" type="audio/mpeg">
+                Votre navigateur ne supporte pas l'audio
+            </audio>
+        </section>
+
+        <section id="experience">
+            <h2>Expérience professionnelle</h2>
+            <ul>
+                <li>Gestionnaire d'un centre multimédia</li>
+                <li>Informaticien DRA</li>
+                <li>Formateur en bureautique</li>
+            </ul>
+        </section>
+
+        <section id="cv">
+            <h2>CV</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Année</th>
+                        <th>Diplome/Formation</th>
+                        <th>Etablissement</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2026</td>
+                        <td>Certification en DevWeb</td>
+                        <td>GoMyCode</td>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>L-IGL</td>
+                        <td>IS...</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>BAC</td>
+                        <td>LMA</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Contactez moi via Whatsapp au +225 07 47 64 09 25</p>
+            <form action="#" method="post">
+                <p>
+                    <label for="nom">Nom</label><br>
+                    <input type="text" name="nom" id="nom" required>
+                </p>
+
+                <p>
+                    <label for="prenoms">Prénoms</label><br>
+                    <input type="text" name="prenoms" id="prenoms" required>
+                </p>
+
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" required>
+                </p>
+
+                <p>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" rows="3"></textarea>
+                </p>
+
+                <p>
+                    <label for="sujet">Sujets</label><br>
+                    <select name="sujet" id="sujet">
+                        <option value="informatique">Informatique</option>
+                        <option value="digital">Digital</option>
+                        <option value="odi-agence">Odi's Agence</option>
+                    </select>
+                </p>
+
+                <button type="submit">Balancer</button><br>
+                
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Odilon TANOH</p>
+    </footer>
+</body>
+</html>
